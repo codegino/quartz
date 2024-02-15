@@ -18,5 +18,4 @@ commit_message="Sync content at $(date '+%Y-%m-%d %H:%M:%S')"
 git commit -m "$commit_message"
 
 # Push the changes to the remote repository
-# Disabling for now
-# git push
+git push
