@@ -1,1 +1,2 @@
-Metadata - https://www.youtube.com/watch?v=7o9j7WJfhi0
+- [Metadata](https://www.youtube.com/watch?v=7o9j7WJfhi0)
+- [Call out types](https://notes.nicolevanderhoeven.com/obsidian-playbook/Using+Obsidian/02+Making+Notes+in+Obsidian/Callouts)
