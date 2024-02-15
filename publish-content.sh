@@ -14,7 +14,9 @@ if [[ -z $(git status --porcelain) ]]; then
 fi
 
 # Commit the changes
-git commit -m "Sync content"
+commit_message="Sync content at $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "$commit_message"
 
 # Push the changes to the remote repository
-git push
+# Disabling for now
+# git push
