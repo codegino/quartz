@@ -3,8 +3,6 @@
 title: Welcome to My Digital Garden
 
 ---
+Welcome to my public digital brain.
 
-
-This is a blank Quartz installation.
-
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+You can see more info on my [website](https://carlogino.com)
