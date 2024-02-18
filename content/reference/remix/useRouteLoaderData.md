@@ -1,5 +1,5 @@
 ---
-title: useRouteLoaderData
+title: Remix useRouteLoaderData
 link: https://remix.run/docs/en/main/hooks/use-route-loader-data
 ---
 
@@ -22,3 +22,7 @@ Remix creates the route IDs automatically. They are simply the path of the route
 |`app/root.tsx`|`"root"`|
 |`app/routes/teams.tsx`|`"routes/teams"`|
 |`app/routes/teams.$id.tsx`|`"routes/teams.$id"`|
+
+
+## Note
+- When targeting `routes/_index.tsx` the hook usage will be `useRouteLoaderData('routes/_index')`

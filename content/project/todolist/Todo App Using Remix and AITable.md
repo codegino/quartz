@@ -11,4 +11,4 @@ This app is terribly slow because AItable is so slooow
 ### Backend
 - Remix Lambda
 ### Authentication
-- Supabase
+- Supabase or Hardcoded logic

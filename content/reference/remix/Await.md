@@ -89,3 +89,13 @@ function SomeChild() {
   return <p>{error.message}</p>;
 }
 ```
+
+
+## Tip
+Using `Await` with multiple promises
+
+```tsx
+<Await resolve={Promise.all([todosResult, labelsResult, projectsResult])}>
+  {/* ... */}
+</Await>
+```
