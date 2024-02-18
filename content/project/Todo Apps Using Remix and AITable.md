@@ -1,8 +1,6 @@
 ---
-title: An Overkill Todo App
+title: An Overkill Todo App using Remix and AITable
 ---
-# An Overkill Todo App using Remix and AITable
-
 ## Tech Stack
 ## Using Remix + AItable(airtable competitor)
 - Production Link - https://todo.carlogino.com/
