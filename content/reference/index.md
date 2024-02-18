@@ -6,7 +6,10 @@ title: References
 - [[NextJS bookmarks]]
 
 ### React Native
-- [[public/reference/react-native/index]]
+- [[Bookmarks]]
+- [[Styling using Tailwind in Ignite]]
+- [[Turn on Developer Mode in Samsung or Android]]
+- [[Enable Developer mode on IOS]]
 
 ## Security
 - [[Auth0 Bookmarks]]
@@ -14,6 +17,9 @@ title: References
 ## API
 - [[Frameworks]]
 
+
+## CSS
+- [[CSS Bookmarks]]
 
 ## Tools
 - [[VSCode Tips]]
