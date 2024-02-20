@@ -1,5 +1,5 @@
 ---
-title: "# Introducing SafeTest: A Novel Approach to Front End Testing"
+title: "Introducing SafeTest: A Novel Approach to Front End Testing"
 link: https://netflixtechblog.com/introducing-safetest-a-novel-approach-to-front-end-testing-37f9f88c152d
 ---
 By: [Moshe Kolodny](https://medium.com/u/a155da075195?source=post_page-----37f9f88c152d--------------------------------)
