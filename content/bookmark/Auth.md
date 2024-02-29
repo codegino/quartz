@@ -1,0 +1,6 @@
+- [WorkOS](https://workos.com/)
+- [Clerk](https://clerk.com/)
+- [Supabase](https://supabase.com/)
+- [Auth0](https://auth0.com/)
+- [Firebase](https://firebase.google.com/)
+- 

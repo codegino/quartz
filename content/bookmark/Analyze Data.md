@@ -1,0 +1,1 @@
+- [Analyze Session Replay](https://www.plerdy.com/blog/how-to-analyze-session-replay-videos/)
