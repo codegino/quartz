@@ -45,7 +45,7 @@ exports.onExecutePostLogin = async (event, api) => {
   },{
     headers: {
       'Content-Type': 'application/json',
-      'x-auth': event.secrets.AUTH0_API_SECRET_KEY,
+      [AUTH_HEADER]: event.secrets.AUTH0_API_SECRET_KEY,
       'Authorization': `Bearer ${await getAccessToken()}`
     },
   })
