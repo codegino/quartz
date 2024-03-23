@@ -23,3 +23,7 @@ source: https://mykoreankitchen.com/kimchi-recipe/
 - Made on Feb 18, 2024
 - 4kg
 - Very very spicy
+
+### Batch #5
+- Made on Mar 18, 2024
+- 4kg
