@@ -229,7 +229,7 @@ export function createConfigFromDefault() {
         enablePopovers: true,
         analytics: { provider: "plausible" },
         locale: "en-US",
-        baseUrl: "quartz.jzhao.xyz",
+        baseUrl: "carlogino.com",
         ignorePatterns: ["private", "templates", ".obsidian"],
         theme: {
           cdnCaching: true,

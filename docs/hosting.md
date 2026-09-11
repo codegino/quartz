@@ -136,7 +136,7 @@ Here's how to add a custom domain to your GitHub pages deployment.
 
 ![[dns records.png]]_The above shows a screenshot of Google Domains configured for both `jzhao.xyz`
 
-(an apex domain) and `quartz.jzhao.xyz`
+(an apex domain) and `carlogino.com`
 
 (a subdomain)._
 
