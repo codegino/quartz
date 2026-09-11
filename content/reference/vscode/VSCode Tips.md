@@ -1,0 +1,1 @@
+- Toggle Command Center to show/remove the big toolbar at the top
