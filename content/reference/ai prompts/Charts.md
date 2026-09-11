@@ -1,1 +1,0 @@
-- “Generate a two-level mind map for the document. Output in Mermaid.js.”
