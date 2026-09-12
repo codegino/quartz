@@ -1,13 +1,6 @@
 ---
 title: Get an OpenAI API key for embeddings
 ---
-
-## Links
-- https://platform.openai.com/api-keys
-- https://platform.openai.com/docs/guides/embeddings
-- https://platform.openai.com/docs/api-reference/embeddings
-- https://openai.com/api/pricing/
-
 ## Create the account
 1. Go to https://platform.openai.com and sign up (Google/GitHub/email).
 2. **The API platform is billed separately from ChatGPT Plus.** A Plus subscription gives you zero API credits.
@@ -70,3 +63,9 @@ Results come back in the same order as `input`, each with its `index`.
 - Always set a timeout (`AbortSignal.timeout(10_000)`), a hung provider should not pin a request open.
 - Embeddings are **deterministic-ish and cacheable** — same text + same model = same vector. Do not re-embed unchanged text.
 - Cost scale: embedding a few thousand short strings with `3-small` is cents, not dollars.
+
+## Links
+- https://platform.openai.com/api-keys
+- https://platform.openai.com/docs/guides/embeddings
+- https://platform.openai.com/docs/api-reference/embeddings
+- https://openai.com/api/pricing/

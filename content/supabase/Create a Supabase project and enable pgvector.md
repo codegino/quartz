@@ -1,12 +1,6 @@
 ---
 title: Create a Supabase project and enable pgvector
 ---
-
-## Links
-- https://supabase.com/dashboard
-- https://supabase.com/docs/guides/database/extensions/pgvector
-- https://github.com/pgvector/pgvector
-
 ## Why Supabase
 - Managed Postgres with `pgvector` already shipped — you only need to enable it.
 - Free tier is enough for demos and side projects.
@@ -75,3 +69,8 @@ alter table todos add column if not exists embedding vector(1536);
 - Free projects **pause after ~1 week of inactivity**. Restore them from the dashboard.
 - The `service_role` key bypasses row level security. Server-side only, never in the browser.
 - Changing embedding model = changing the column width = re-embedding every row. Plan a backfill endpoint from day one.
+
+## Links
+- https://supabase.com/dashboard
+- https://supabase.com/docs/guides/database/extensions/pgvector
+- https://github.com/pgvector/pgvector

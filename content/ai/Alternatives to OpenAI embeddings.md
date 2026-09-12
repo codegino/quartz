@@ -1,16 +1,6 @@
 ---
 title: Alternatives to OpenAI embeddings
 ---
-
-## Links
-- https://huggingface.co/spaces/mteb/leaderboard
-- https://sbert.net/
-- https://github.com/xenova/transformers.js
-- https://ollama.com/search?c=embedding
-- https://docs.voyageai.com/docs/embeddings
-- https://docs.cohere.com/docs/embeddings
-- https://ai.google.dev/gemini-api/docs/embeddings
-
 ## The only thing that actually matters
 An embedding model is a function `text -> number[]`. Swapping providers changes three things and nothing else:
 
@@ -97,3 +87,13 @@ Runs in Node **and** in the browser. No API key, no network, no per-request cost
 - Local models cost latency instead of money: expect tens of ms per embedding on CPU, versus a network round trip.
 - Your similarity cutoff (`0.6` or whatever you tuned) is **per model**. Re-tune it after a swap.
 - Benchmark scores are about long documents. Short strings behave differently — trust your own spot checks over a leaderboard.
+
+
+## Links
+- https://huggingface.co/spaces/mteb/leaderboard
+- https://sbert.net/
+- https://github.com/xenova/transformers.js
+- https://ollama.com/search?c=embedding
+- https://docs.voyageai.com/docs/embeddings
+- https://docs.cohere.com/docs/embeddings
+- https://ai.google.dev/gemini-api/docs/embeddings

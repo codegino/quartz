@@ -1,14 +1,6 @@
 ---
 title: Counting tokens and cost for embeddings
 ---
-
-## Links
-- https://platform.openai.com/docs/guides/embeddings
-- https://platform.openai.com/tokenizer
-- https://github.com/openai/tiktoken
-- https://github.com/dqbd/tiktoken
-- https://openai.com/api/pricing/
-
 ## What you are actually billed for
 Embedding APIs bill **input tokens only**. There is no output token cost, because the output is a vector, not text.
 
@@ -116,3 +108,12 @@ await fetch(ENDPOINT, {
 - Token counts differ per provider. A Cohere or Voyage estimate does not transfer to OpenAI.
 - Free tiers are capped by tokens per minute, not just per month, so a bulk import can fail without ever hitting the monthly cap.
 - The cost of a mistake is the whole table, since every model change means re-embedding everything. Keep the table size in tokens written down somewhere.
+
+
+
+## Links
+- https://platform.openai.com/docs/guides/embeddings
+- https://platform.openai.com/tokenizer
+- https://github.com/openai/tiktoken
+- https://github.com/dqbd/tiktoken
+- https://openai.com/api/pricing/
