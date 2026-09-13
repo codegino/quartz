@@ -1,7 +1,6 @@
 ---
 title: Alternatives to OpenAI embeddings
 ---
-## The only thing that actually matters
 An embedding model is a function `text -> number[]`. Swapping providers changes three things and nothing else:
 
 1. The **HTTP call** (or the lack of one).
