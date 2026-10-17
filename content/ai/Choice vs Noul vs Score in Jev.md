@@ -28,17 +28,17 @@ A `choice` cannot say either of those. One `noul` per tag can:
 ```json
 {
   "model": "typesafe/jev-1.14",
-  "state": {"title": "Buy dish soap"},
+  "state": "Buy dish soap",
   "questions": {
-    "groceries": {"type": "noul", "instructions": "Does the todo belong in \"groceries\"? Choose it when: ..."},
-    "chores": {"type": "noul", "instructions": "Does the todo belong in \"chores\"? Choose it when: ..."},
-    "work": {"type": "noul", "instructions": "Does the todo belong in \"work\"? Choose it when: ..."}
+    "groceries": {"type": "noul", "instructions": "Is this about buying food, drinks, or household supplies?"},
+    "chores": {"type": "noul", "instructions": "Is this a task done in or around the home?"},
+    "work": {"type": "noul", "instructions": "Is this related to a job or career?"}
   }
 }
 ```
 
 ```json
-{"groceries": {"noul": 0.96}, "chores": {"noul": 0.71}, "work": {"noul": 0.06}}
+{"groceries": {"noul": 0.96}, "chores": {"noul": 0.92}, "work": {"noul": 0.09}}
 ```
 
 Each tag is judged on its own, so adding a fourth tag does not change the scores of the other three. Then your code keeps every tag above a [threshold](https://note.carlogino.com/ai/picking-a-classification-threshold).

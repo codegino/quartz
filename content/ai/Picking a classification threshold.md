@@ -26,7 +26,7 @@ There is no right answer, only the right one for your app. A wrong `work` tag on
 Because you saved the probabilities in step 2, step 3 costs nothing. No extra API calls.
 
 ## Gotchas
-- **Items near the threshold flip.** A score of `0.70` today might be `0.69` tomorrow. If many items sit right on the line, the label's "choose when" description is probably too vague. Fix the wording before moving the number.
+- **Items near the threshold flip.** A score of `0.70` today might be `0.69` tomorrow. If many items sit right on the line, the label's question is probably too vague. Fix the wording before moving the number. (Rewording "Does the todo belong in chores? Choose it when: …" into a plain "Is this a task done in or around the home…?" moved "Buy dish soap" from `0.72` to `0.92`.)
 - **One threshold per tag is fine.** Nothing says groceries and work need the same cutoff.
 - **Thresholds belong to a model version.** Pin the model (`typesafe/jev-1.14`, not `jev-latest`). After an upgrade, re-run step 2 and step 3.
 - **Store the probabilities if you will re-tune.** If you only store the final tags, every re-tune means classifying every row again.
